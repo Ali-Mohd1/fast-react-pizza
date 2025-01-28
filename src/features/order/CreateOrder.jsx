@@ -73,7 +73,7 @@ function CreateOrder() {
                 className="input w-full"
                 name="address"
                 disabled={isLoadingAddress}
-                value={address}
+                defaultValue={address}
                 required
               />
               {addressStatus === "error" && (
